@@ -1,4 +1,4 @@
-package vendas.fisicas;
+package edu.pdv.vendafisica;
 
 public class AdicionalItemPedido {
 }
