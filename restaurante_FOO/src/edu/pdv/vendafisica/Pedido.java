@@ -9,5 +9,5 @@ public class Pedido {
     private boolean isAberto;
     private Atendente atendente;
     private List<ItemPedido> items;
-    private 
+    private int quantidade[];
 }
