@@ -9,5 +9,9 @@ public class Pedido {
     private boolean isAberto;
     private Atendente atendente;
     private List<ItemPedido> items;
-    private int quantidade[];
+    private int quantidade[]; //precisa repensar o tipo desse atributo
+
+    public Pedido(String mesa, Atendente atendente) {
+
+    }
 }
