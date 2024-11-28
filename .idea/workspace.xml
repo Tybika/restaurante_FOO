@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9eaaf094-ec92-4d4f-a479-bd70f81a7234" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurante_FOO/src/edu/pdv/vendafisica/AdicionalItemPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/restaurante_FOO/src/edu/pdv/vendafisica/AdicionalItemPedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurante_FOO/src/edu/pdv/vendafisica/ItemPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/restaurante_FOO/src/edu/pdv/vendafisica/ItemPedido.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/restaurante_FOO/src/edu/pdv/vendafisica/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/restaurante_FOO/src/edu/pdv/vendafisica/Pedido.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,8 +51,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
-        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
       </set>
     </attachedChunks>
   </component>
@@ -64,6 +66,7 @@
       <updated>1731533113421</updated>
       <workItem from="1731533119174" duration="128000" />
       <workItem from="1732793695000" duration="2123000" />
+      <workItem from="1732821730158" duration="3627000" />
     </task>
     <servers />
   </component>

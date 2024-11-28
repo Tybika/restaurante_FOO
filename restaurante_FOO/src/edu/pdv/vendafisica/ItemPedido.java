@@ -1,5 +1,7 @@
 package edu.pdv.vendafisica;
 
+import java.util.List;
+
 public class ItemPedido {
     private long id;
     private String nome;
