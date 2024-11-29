@@ -4,7 +4,7 @@ public class Cliente {
     private String nome;
     private String cpf;
 
-    // Construtor
+    // Construtores
     public Cliente(String nome, String cpf) {
         this.nome = nome;
         this.cpf = cpf;

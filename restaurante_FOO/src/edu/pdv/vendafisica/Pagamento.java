@@ -10,7 +10,7 @@ public class Pagamento {
     private Date hora;
     private Cliente pagante;
 
-    // Construtor
+    // Construtores
     public Pagamento(Long id, Pedido pedido, Double valor, String formaPagamento, Date hora, Cliente pagante) {
         this.id = id;
         this.pedido = pedido;
@@ -20,7 +20,7 @@ public class Pagamento {
         this.pagante = pagante;
     }
 
-    // Métodos principais
+    // Metodo de gerar nota fiscal:
     public void gerarNF() {
         System.out.println("Nota Fiscal:");
         System.out.println("ID do Pagamento: " + id);
@@ -30,7 +30,7 @@ public class Pagamento {
         System.out.println("Hora: " + hora);
     }
 
-    // Getters
+    // Getters (não sei se esse jeito de indentar os returns vai dar certo)
     public Long getId() { return id; }
     public Pedido getPedido() { return pedido; }
     public Double getValor() { return valor; }
