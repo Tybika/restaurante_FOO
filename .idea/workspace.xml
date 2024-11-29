@@ -7,9 +7,13 @@
     <list default="true" id="9eaaf094-ec92-4d4f-a479-bd70f81a7234" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/restaurante_FOO/src/edu/pdv/vendafisica/Conta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/restaurante_FOO/src/edu/pdv/vendafisica/AdicionalItemPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/restaurante_FOO/src/edu/pdv/vendafisica/AdicionalItemPedido.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/restaurante_FOO/src/edu/pdv/vendafisica/Atendente.java" beforeDir="false" afterPath="$PROJECT_DIR$/restaurante_FOO/src/edu/pdv/vendafisica/Atendente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/restaurante_FOO/src/edu/pdv/vendafisica/ItemPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/restaurante_FOO/src/edu/pdv/vendafisica/ItemPedido.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/restaurante_FOO/src/edu/pdv/vendafisica/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/restaurante_FOO/src/edu/pdv/vendafisica/Conta.java" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +71,11 @@
       <updated>1731533113421</updated>
       <workItem from="1731533119174" duration="128000" />
       <workItem from="1732793695000" duration="2123000" />
+<<<<<<< Updated upstream
+=======
+      <workItem from="1732821730158" duration="3627000" />
+      <workItem from="1732881915558" duration="4661000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>

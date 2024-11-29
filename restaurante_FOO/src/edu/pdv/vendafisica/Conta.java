@@ -7,6 +7,15 @@ public class Conta {
     private float valorRestante;
 
     public Conta(Pedido pedido){
+        this.pedido = pedido;
+        this.valorTotal = conta.calcularValorTotal();
+        this.totalDesconto = calcularDescontoPercentual() +
+                             calcularDescontoNominal() + calcularDescontoProgressivo();
+        this.valorRestante = valorTotal - totalDesconto;
+    }
+
+
+    private calcularValorTotal(){
 
     }
 }
