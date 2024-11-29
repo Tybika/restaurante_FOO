@@ -7,16 +7,17 @@ public class Adicional {
     private int quantidade;
     private double desconto;
 
-    //Contrutor, não passei o ID pois ele é autogerado (eu acho)
-    public Adicional(String nome, double preco, int quantidade) {
+    //Contrutor
+    public Adicional(String nome, double preco, int quantidade, double desconto) {
         this.nome = nome;
         this.preco = preco;
         this.quantidade = quantidade;
+        this.desconto = desconto;
     }
     // Getters
     public long getId() {
         return id;
-    }
+    } // COLOCO O NOME DO GET DIFERENTE PORQUE TODOS TERIAM O MESMO NOME DE getId?
     public String getNome() {
         return nome;
     }
