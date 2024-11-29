@@ -11,6 +11,7 @@ public class Conta {
         this.valorTotal = this.calcularValorTotal();
         this.totalDesconto = this.calcularDescontoPercentual() +
                              this.calcularDescontoNominal() + this.calcularDescontoProgressivo();
+        //Tem que inserir o desconto que venha de itens aqui tbm (ou fazê-lo em valorTotal)
         this.valorRestante = valorTotal - totalDesconto;
     }
 
@@ -39,25 +40,54 @@ public class Conta {
         return desconto;
     }
 
-    public double calcularDescontoNominal(double n){
+    public double calcularDescontoNominal(double desconto){
         if (n <= 0 || n > valorTotal){
             return 0;
         }
 
-        return n;
+        return desconto;
     }
 
-    public double calcularDescontoProgressivo(double descontoMin, double descontoMax
-                                              double progressao, int qntMin, long item){
+    public double calcularDescontoProgressivo(long itemId, double descontoMin,
+                                              double descontoMax, double progressao, int qntMin){
+        //Verifica validade dos parâmetros
         if (descontoMax > descontoMin && descontoMax <= 100 && descontoMin > 0 &&
                 progressao > 0 && progressao <= descontoMax && qntMin > 0){
-            int intervalos = (int) descontoMax / progressao;
-            int qntMax = qntMin + intervalos;
-            List<ItemPedido> items = this.pedido.getItems;
+            double preco;
+            int n;
+
+
+            List<ItemPedido> itens = this.pedido.getItems;
             int[] quantidade = this.pedido.getQuantidade;
+            int qnt = 0;
 
-            if (n > qntMin){
+            //Itera itens buscando itemId
+            for (int i = 0; i < itens.size(); i++){
+                n = itens.get(i).getId;
+                if (n == itemId){
+                    preco = itens.get(i).getPreco;
+                    qnt = quantidade[i];
+                    break;
+                }
+            }
 
+            //Calcula se
+            if (qnt > qntMin){
+                int dif, intervalos, qntMax;
+                double desconto;
+
+                for (int i = qntMin; i < qnt; i++){
+                    if (i < qntMax){
+
+                    }
+                }
+
+                dif = qnt - qntMin;
+                intervalos = (int) descontoMax / progressao;
+                qntMax = qntMin + intervalos;
+
+                desconto = (preco* ) * qnt;
+                return desconto;
             }
         }
         return 0;
