@@ -17,7 +17,7 @@ public class Adicional {
     // Getters
     public long getId() {
         return id;
-    } 
+    }
     public String getNome() {
         return nome;
     }
