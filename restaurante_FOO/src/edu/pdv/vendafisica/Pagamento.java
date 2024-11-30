@@ -1,5 +1,6 @@
 package edu.pdv.vendafisica;
 
+// Biblioteca de date
 import java.util.Date;
 
 public class Pagamento {
