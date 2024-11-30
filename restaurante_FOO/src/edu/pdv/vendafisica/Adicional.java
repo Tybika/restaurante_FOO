@@ -17,7 +17,7 @@ public class Adicional {
     // Getters
     public long getId() {
         return id;
-    } // COLOCO O NOME DO GET DIFERENTE PORQUE TODOS TERIAM O MESMO NOME DE getId?
+    } 
     public String getNome() {
         return nome;
     }
