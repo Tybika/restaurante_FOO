@@ -4,15 +4,15 @@ package edu.pdv.vendafisica;
 import java.util.Date;
 
 public class Pagamento {
-    private Long id;
+    private long id;
     private Pedido pedido;
-    private Double valor;
+    private double valor;
     private String formaPagamento;
     private Date hora;
     private Cliente pagante;
 
     // Construtores
-    public Pagamento(Long id, Pedido pedido, Double valor, String formaPagamento, Date hora, Cliente pagante) {
+    public Pagamento(long id, Pedido pedido, double valor, String formaPagamento, Date hora, Cliente pagante) {
         this.id = id;
         this.pedido = pedido;
         this.valor = valor;
@@ -32,9 +32,9 @@ public class Pagamento {
     }
 
     // Getters (não sei se esse jeito de indentar os returns vai dar certo)
-    public Long getId() { return id; }
+    public long getId() { return id; }
     public Pedido getPedido() { return pedido; }
-    public Double getValor() { return valor; }
+    public double getValor() { return valor; }
     public String getFormaPagamento() { return formaPagamento; }
     public Date getHora() { return hora; }
 }
