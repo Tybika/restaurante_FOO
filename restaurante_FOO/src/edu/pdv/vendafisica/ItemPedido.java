@@ -1,4 +1,5 @@
 package edu.pdv.vendafisica;
+import java.util.*;
 
 public class ItemPedido {
     private long id;
@@ -6,7 +7,7 @@ public class ItemPedido {
     private String categoria;
     private double preco;
     private double desconto;
-    private List<Adicional> adicionais;
+    private ArrayList<Adicional> adicionais;
     private boolean isDisponivel;
 
     // Contrutor
@@ -15,15 +16,18 @@ public class ItemPedido {
         this.categoria = categoria;
         this.preco = preco;
         this.desconto = desconto;
-        this.adicionais = adicionais; // É assim que eu faço no contrutor no caso da lista? Já verifico
+        this.adicionais = new ArrayList<adicionais>(); // Eu não tenho ideia de como usar isso
         this.isDisponivel = isDisponivel;
     }
 
     // Métodos que fazem algo
-    // Método com Lista que farei depois do primeiro commit
-    // Segundo método com Lista que farei depois do primeiro commit
+    public long listItens(){ // Deveria printar cada item dentro da lista, pelo o que li, são long...
+        for (long i : adicionais){
+            System.out.println(i);
+        }
+    }
     public String encontrarIDPorNome(String nome){
-        // Não tenho ideia de como programar isso KKKKKKKKKK
+        // Não sei como sequer iniciar isso
     }
 
     // Getters
