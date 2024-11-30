@@ -7,16 +7,16 @@ public class ItemPedido {
     private String categoria;
     private double preco;
     private double desconto;
-    private ArrayList<Adicional> adicionais;
+    private List<Adicional> adicionais;
     private boolean isDisponivel;
 
     // Contrutor
-    public ItemPedido(String nome, String categoria, double preco, double desconto) {
+    public ItemPedido(String nome, String categoria, double preco, double desconto, List<adicionais>, boolean isDisponivel) {
         this.nome = nome;
         this.categoria = categoria;
         this.preco = preco;
         this.desconto = desconto;
-        this.adicionais = new ArrayList<adicionais>(); // Eu não tenho ideia de como usar isso
+        this.adicionais = new List<adicionais>(); // Eu não tenho ideia de como usar isso
         this.isDisponivel = isDisponivel;
     }
 
