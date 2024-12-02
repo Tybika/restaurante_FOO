@@ -65,9 +65,8 @@ public class Conta {
             double preco;
             int n;
 
-
-            List<ItemPedido> itens = this.pedido.getItems;
-            int[] quantidade = this.pedido.getQuantidade;
+            List<ItemPedido> itens = this.pedido.getItens().clone();
+            int[] quantidade = this.pedido.getQuantidade();
             int qnt = 0;
 
             // Itera itens buscando itemId
